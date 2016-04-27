@@ -1,0 +1,13 @@
+﻿<Application x:Class="LivetPractice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Views\MainWindow.xaml"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="DefaultBackground" Color="Transparent"/>
+            <SolidColorBrush x:Key="FocusedBackground" Color="Yellow"/>
+            <SolidColorBrush x:Key="ErrorBackground" Color="Red"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
